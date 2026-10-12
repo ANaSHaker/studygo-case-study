@@ -1,0 +1,106 @@
+{
+  "outDir": "..",
+  "brand": {
+    "name": "StudyGo",
+    "tagline": "Education platform for Palestinian students",
+    "accent": "#2E6BD8",
+    "accent2": "#F59E0B",
+    "logo": "D:/shaker-github/_store/com.study.go/icon.png",
+    "dark": true
+  },
+  "images": [
+    {
+      "type": "banner",
+      "file": "banner.png",
+      "kicker": "Case Study · EdTech · Palestine",
+      "subtitle": "Students, teachers and parents on one platform: bookings, exams, AI tutor, wallet and secure checkout.",
+      "screens": [
+        "D:/shaker-github/_work/studygo-shots/ios/sg_ios_04.png",
+        "D:/shaker-github/_work/studygo-shots/ios/sg_ios_01.png",
+        "D:/shaker-github/_work/studygo-shots/ios/sg_ios_06.png"
+      ],
+      "devices": [
+        "iphone",
+        "iphone",
+        "iphone"
+      ],
+      "chips": [
+        "Flutter",
+        "Clean Architecture",
+        "Bloc + GetIt",
+        "GoRouter",
+        "Firebase"
+      ]
+    },
+    {
+      "type": "gallery",
+      "file": "screens-store.png",
+      "title": "Store listing",
+      "screens": [
+        "D:/shaker-github/_store/com.study.go/shot_01.png",
+        "D:/shaker-github/_store/com.study.go/shot_02.png",
+        "D:/shaker-github/_store/com.study.go/shot_03.png",
+        "D:/shaker-github/_store/com.study.go/shot_04.png",
+        "D:/shaker-github/_store/com.study.go/shot_05.png",
+        "D:/shaker-github/_store/com.study.go/shot_06.png"
+      ],
+      "device": "card",
+      "cardRatio": 1.62,
+      "cols": 6
+    },
+    {
+      "type": "devices",
+      "file": "screens-app.png",
+      "title": "Inside the app",
+      "screens": [
+        "D:/shaker-github/_work/studygo-shots/ios/sg_ios_02.png",
+        "D:/shaker-github/_work/studygo-shots/ios/sg_ios_05.png",
+        "D:/shaker-github/_work/studygo-shots/ios/sg_ios_06.png",
+        "D:/shaker-github/_work/studygo-shots/ios/sg_ios_07.png"
+      ],
+      "devices": [
+        "iphone",
+        "iphone",
+        "iphone",
+        "iphone"
+      ],
+      "width": 1600,
+      "height": 980
+    },
+    {
+      "type": "feature",
+      "file": "feature-ai-tutor.png",
+      "kicker": "Signature feature",
+      "title": "An AI assistant for every role",
+      "points": [
+        "27 AI tools across student, teacher and parent",
+        "Photo question solver, step-by-step solutions",
+        "Exam, quiz and flashcard generators for teachers",
+        "Report interpreter and messages for parents",
+        "Educational YouTube stories inside the assistant"
+      ],
+      "screen": "D:/shaker-github/_work/studygo-shots/ios/sg_ios_04.png",
+      "device": "iphone"
+    },
+    {
+      "type": "gallery",
+      "file": "screens-ipad.png",
+      "title": "Also shipped for iPad",
+      "screens": [
+        "D:/shaker-github/_work/studygo-shots/ios/sg_ipad_01.png",
+        "D:/shaker-github/_work/studygo-shots/ios/sg_ipad_02.png",
+        "D:/shaker-github/_work/studygo-shots/ios/sg_ipad_05.png"
+      ],
+      "device": "card",
+      "cardRatio": 1.34,
+      "cols": 3
+    },
+    {
+      "type": "html",
+      "file": "feature-checkout.png",
+      "width": 1600,
+      "height": 900,
+      "body": "<div class='grid-bg'></div><div style='position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;gap:46px;padding:0 70px'><div style='display:flex;flex-direction:column;gap:14px'><div class='accent' style='font-size:22px;font-weight:600'>Engineering highlight</div><div class='title' style='font-size:52px'>Hosted checkout, no card data in the app</div></div><div style='display:flex;align-items:stretch;gap:12px'><div style='width:318px;min-height:300px;padding:28px 26px;border-radius:24px;background:#ffffff0f;border:1px solid #ffffff22;display:flex;flex-direction:column;gap:12px'><div style='width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg,#2E6BD8,#F59E0B);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:22px'>1</div><div style='font-size:23px;font-weight:700;line-height:1.25'>Tap buy</div><div style='font-size:17px;opacity:.75;line-height:1.45'>Plan, lesson booking, wallet top-up or playlist: each product has its own start endpoint.</div></div><div style='font-size:34px;opacity:.5;align-self:center'>&#8594;</div><div style='width:318px;min-height:300px;padding:28px 26px;border-radius:24px;background:#ffffff0f;border:1px solid #ffffff22;display:flex;flex-direction:column;gap:12px'><div style='width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg,#2E6BD8,#F59E0B);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:22px'>2</div><div style='font-size:23px;font-weight:700;line-height:1.25'>Server signs the URL</div><div style='font-size:17px;opacity:.75;line-height:1.45'>Backend creates a pending purchase and returns a signed checkout link (or auto-confirms).</div></div><div style='font-size:34px;opacity:.5;align-self:center'>&#8594;</div><div style='width:318px;min-height:300px;padding:28px 26px;border-radius:24px;background:#ffffff0f;border:1px solid #ffffff22;display:flex;flex-direction:column;gap:12px'><div style='width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg,#2E6BD8,#F59E0B);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:22px'>3</div><div style='font-size:23px;font-weight:700;line-height:1.25'>Real browser tab</div><div style='font-size:17px;opacity:.75;line-height:1.45'>Custom Tabs / SFSafariViewController, so 3-D Secure and Google Pay work. Not a WebView.</div></div><div style='font-size:34px;opacity:.5;align-self:center'>&#8594;</div><div style='width:318px;min-height:300px;padding:28px 26px;border-radius:24px;background:#ffffff0f;border:1px solid #ffffff22;display:flex;flex-direction:column;gap:12px'><div style='width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg,#2E6BD8,#F59E0B);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:22px'>4</div><div style='font-size:23px;font-weight:700;line-height:1.25'>Deep link back</div><div style='font-size:17px;opacity:.75;line-height:1.45'>HMAC-verified callback, then studygo://payments/result. Polling covers a lost redirect.</div></div></div><div style='font-size:19px;opacity:.6'>Money travels as integer agorot (1/100 ILS), never floats. Diagram drawn from the integration spec; it is not an app screenshot.</div></div>"
+    }
+  ]
+}

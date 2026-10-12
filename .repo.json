@@ -1,0 +1,17 @@
+{
+  "name": "studygo-case-study",
+  "description": "Case study: StudyGo, an education platform for students, teachers and parents in Palestine. Flutter Clean Architecture app with bookings, timed exams, 27 AI tools, teacher wallet and hosted checkout. Live on Google Play and the App Store. Learn smarter, together",
+  "topics": [
+    "flutter",
+    "case-study",
+    "edtech",
+    "clean-architecture",
+    "bloc",
+    "get-it",
+    "go-router",
+    "payments",
+    "firebase",
+    "ai"
+  ],
+  "homepage": "https://play.google.com/store/apps/details?id=com.study.go"
+}
